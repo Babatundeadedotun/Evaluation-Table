@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <marquee behavior="" direction="right" class="marque"><h4>EVALUATION TABLE</h4></marquee>
+
+    <div class="container">
+
+        <input type="text" class="input rounded-start-pill" placeholder="ROW" id="userInput1">
+        <input type="text" class="input rounded-end-pill" placeholder="COLUMN" id="userInput2">
+
+        <div class="signs">
+            <button class="rounded-start-pill sign" onclick="add()">Addition➕</button>
+            <button class="sign" onclick="subtract()">Subtraction➖</button>
+            <button class="sign" onclick="multiply()">Multiplication❌</button>
+            <button class="rounded-end-pill sign" onclick="divide()">Division➗</button>
+        </div>
+
+        <div class="flex mt-3 content-center justify-center">
+
+            <table id="table1" class="text-center tab">
+                <tr>
+         
+
+                    <td class="text-center">
+                        
+                    </td>
+                    
+                </tr>
+
+                <tr>
+
+                    <td>
+                        
+                    </td>
+
+                </tr>
+
+
+            </table>
+
+        </div>
+       
+
+    </div>
+
+    
+
+
+    <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>

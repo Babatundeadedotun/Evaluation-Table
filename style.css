@@ -1,0 +1,88 @@
+body{
+    background: url(./images/pexels-pixabay-221540.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding: 100px;
+    text-align: center;
+    margin-top: -55px !important;
+}
+.marque{
+    margin-top: 20px;
+}
+.input{
+    border: 5px solid #6599BF;
+}
+input::placeholder{
+    text-align: center;
+}
+.signs{
+    margin-top: 50px;
+}
+.sign{
+    border: none;
+    width: 14% !important;
+    height: 6vh;
+    background-color: #EDEFEE;
+}
+.sign:hover{
+    background-color: #806155;
+}
+.tab{
+    background-color: #FED7AA;
+}
+td:hover{
+    background-color: #806155;
+}
+
+@media screen and (max-width:912px) {
+
+    #userInput1{
+        margin-bottom: 20px;
+    }
+    .input{
+        height: 6vh;
+        width: 50% !important;
+        border-radius: 0% !important;
+
+    }
+    .sign{
+        width: 50% !important;
+        margin-bottom: 20px;
+        border-radius: 0% !important;
+    }
+    table{
+        width: 100% !important;
+    }
+    
+}
+
+@media screen and (max-width:428px) {
+
+    .input{
+        height: 6vh;
+        width: 100% !important;
+        border-radius: 0% !important;
+    }
+
+    #userInput2{
+        margin-top: 20px;
+    }
+    .signs{
+        display: grid !important;
+    }
+    .sign{
+        width: 100% !important;
+        margin-top: 10px;
+        border-radius: 0% !important;
+    }
+    table{
+        border-collapse: collapse;
+        width: 250% !important;
+        margin-left: -100px !important;
+    }
+}
+
+
